@@ -7,7 +7,6 @@ export ARCH
 export OUTPATH=./dist
 export ADD_HOOKS="self-updater.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
-#export ICON=https://raw.githubusercontent.com/SpikeHD/Dorion/refs/heads/main/src-tauri/icons/128x128%402x.png
 export ICON=./usr/share/icons/hicolor/512x512/apps/Dorion.png
 export DESKTOP=./usr/share/applications/Dorion.desktop
 
