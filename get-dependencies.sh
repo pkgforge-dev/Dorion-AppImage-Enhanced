@@ -15,12 +15,6 @@ echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
 get-debloated-pkgs --add-common --prefer-nano webkit2gtk-4.1-mini
 
-# Comment this out if you need an AUR package
-#make-aur-package dorion-bin
-
-# If the application needs to be manually built that has to be done down here
-
-# if you also have to make nightly releases check for DEVEL_RELEASE = 1
 case "$ARCH" in # they use AMD64 and ARM64 for the deb links
 	x86_64)  deb_arch=amd64;;
 	aarch64) deb_arch=arm64;;
