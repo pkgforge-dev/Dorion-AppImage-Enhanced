@@ -6,10 +6,7 @@ ARCH=$(uname -m)
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-pacman -Syu --noconfirm     \
-    gst-plugins-base        \
-    gst-plugins-good        \
-    libayatana-appindicator
+pacman -Syu --noconfirm gst-plugins-base gst-plugins-good libayatana-appindicator
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
